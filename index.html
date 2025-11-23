@@ -2,40 +2,76 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Top 5 Beautiful Places I Want to Visit</title>
+<title>5 Beautiful Places to Visit</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="container-home">
+<div class="main-container">
 
-    <h1 class="home-title">Top 5 Beautiful Places I Want to Visit</h1>
-    <p class="home-subtitle">Click a pin on the map or choose from the list below</p>
+    <header class="page-header">
+        <h1>Discover the World's Most Beautiful Places</h1>
+        <p class="tagline">Five destinations that will take your breath away</p>
+    </header>
 
-    <div class="map-card">
-        <div class="map-container">
-            <img src="images/world-map.png" class="world-map">
+    <section class="map-section">
+        <h2>Interactive World Map</h2>
+        <p class="instruction">Click on any location marker to explore</p>
 
-            <!-- Pins -->
-            <a href="santorini.html" class="pin" style="top: 42%; left: 52%;" title="Santorini, Greece"></a>
-            <a href="kyoto.html" class="pin" style="top: 44%; left: 83%;" title="Kyoto, Japan"></a>
-            <a href="patagonia.html" class="pin" style="top: 78%; left: 25%;" title="Patagonia, Argentina"></a>
-            <a href="iceland.html" class="pin" style="top: 28%; left: 45%;" title="Iceland"></a>
-            <a href="bali.html" class="pin" style="top: 58%; left: 76%;" title="Bali, Indonesia"></a>
+        <div class="map-wrapper">
+            <img src="images/world-map.png" class="map-image">
+
+            <a href="santorini.html" class="location-pin" style="top: 46%; left: 50.5%;" title="Santorini, Greece"></a>
+            <a href="kyoto.html" class="location-pin" style="top: 45%; left: 84%;" title="Kyoto, Japan"></a>
+            <a href="patagonia.html" class="location-pin" style="top: 80%; left: 28%;" title="Patagonia, Argentina"></a>
+            <a href="iceland.html" class="location-pin" style="top: 30%; left: 45%;" title="Iceland"></a>
+            <a href="bali.html" class="location-pin" style="top: 58%; left: 76.5%;" title="Bali, Indonesia"></a>
         </div>
+    </section>
 
+    <section class="destinations-list">
+        <h2>Browse All Destinations</h2>
 
-    <h2 class="list-title">Explore Each Destination</h2>
+        <table class="destination-table">
+            <tr>
+                <td class="dest-item">
+                    <a href="santorini.html">
+                        <h3>Santorini</h3>
+                        <p>Greece</p>
+                    </a>
+                </td>
+                <td class="dest-item">
+                    <a href="kyoto.html">
+                        <h3>Kyoto</h3>
+                        <p>Japan</p>
+                    </a>
+                </td>
+                <td class="dest-item">
+                    <a href="patagonia.html">
+                        <h3>Patagonia</h3>
+                        <p>Argentina</p>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="dest-item">
+                    <a href="iceland.html">
+                        <h3>Iceland</h3>
+                        <p>Northern Europe</p>
+                    </a>
+                </td>
+                <td class="dest-item">
+                    <a href="bali.html">
+                        <h3>Bali</h3>
+                        <p>Indonesia</p>
+                    </a>
+                </td>
+                <td class="dest-item empty">
+                </td>
+            </tr>
+        </table>
+    </section>
 
-    <div class="home-links">
-        <a href="santorini.html">Santorini, Greece</a>
-        <a href="kyoto.html">Kyoto, Japan</a>
-        <a href="patagonia.html">Patagonia, Argentina</a>
-        <a href="iceland.html">Iceland</a>
-        <a href="bali.html">Bali, Indonesia</a>
-    </div>
-
-    </div>
 </div>
 
 </body>
