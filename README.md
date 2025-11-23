@@ -52,7 +52,7 @@ Example: You can host this on GitHub Pages, Netlify, or your school server
 
 ---
 
-**Student:** Afek Socolovsky
+**Student:** Afik Socolovsky
 **Course:** Web Development
 **Assignment:** Exercise 1
 **Date:** 2025
