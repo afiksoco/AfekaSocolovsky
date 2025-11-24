@@ -42,9 +42,9 @@ Repository Name: `AfekaSocolovsky`
 Repository URL: https://github.com/afiksoco/AfekaSocolovsky
 
 ### Server Address
-**Server URL:** (To be added after hosting)
+**GitHub Pages URL:** https://afiksoco.github.io/AfekaSocolovsky/
 
-Example: You can host this on GitHub Pages, Netlify, or your school server
+The website is hosted on GitHub Pages and can be accessed at the URL above.
 
 ### Notes
 - All code uses **only HTML and CSS** taught in class
